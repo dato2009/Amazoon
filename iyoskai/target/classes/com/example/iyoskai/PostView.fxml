@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.iyoskai.PostView">
+   <children>
+      <Text fx:id="ProductName" layoutX="203.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NamePlaceholder">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="ProductDescription" layoutX="163.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DESCRIPTIONPLACEHOLDER:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" wrappingWidth="248.37109375" />
+      <Text fx:id="ProductPrice" layoutX="203.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PRICEPLACEHOLDER:99999999$" />
+      <Button layoutX="260.0" layoutY="360.0" mnemonicParsing="false" onAction="#Back" text="Back" />
+   </children>
+</AnchorPane>

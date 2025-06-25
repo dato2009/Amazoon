@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.iyoskai.MainMenu">
+   <children>
+      <Text layoutX="218.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EBAY" wrappingWidth="252.13671875">
+         <font>
+            <Font size="60.0" />
+         </font>
+      </Text>
+      <ChoiceBox layoutX="6.0" layoutY="107.0" prefWidth="150.0" />
+      <Text layoutX="6.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Filter By: " />
+      <Text layoutX="6.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Type" />
+      <TextField layoutX="442.0" layoutY="107.0" promptText="Search" />
+      <Button layoutX="379.0" layoutY="106.0" minWidth="47.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="47.0" text="⌕" />
+      <ChoiceBox layoutX="166.0" layoutY="108.0" prefWidth="150.0" />
+      <Text layoutX="166.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rating" />
+      <Button layoutX="518.0" layoutY="14.0" mnemonicParsing="false" onAction="#Create" text="Add new" />
+      <Button fx:id="PostButton1" layoutX="14.0" layoutY="163.0" mnemonicParsing="false" onAction="#Button1" prefHeight="101.0" prefWidth="113.0" text="PostSlot1" />
+      <Button fx:id="PostButton2" layoutX="160.0" layoutY="163.0" mnemonicParsing="false" onAction="#Button2" prefHeight="101.0" prefWidth="113.0" text="PostSlot2" />
+      <Button fx:id="PostButton3" layoutX="311.0" layoutY="163.0" mnemonicParsing="false" onAction="#Button3" prefHeight="101.0" prefWidth="113.0" text="PostSlot3" />
+      <Button fx:id="PostButton4" layoutX="457.0" layoutY="163.0" mnemonicParsing="false" onAction="#Button4" prefHeight="101.0" prefWidth="113.0" text="PostSlot4" />
+      <Button fx:id="PostButton5" layoutX="15.0" layoutY="284.0" mnemonicParsing="false" onAction="#Button5" prefHeight="101.0" prefWidth="113.0" text="PostSlot5" />
+      <Button fx:id="PostButton6" layoutX="161.0" layoutY="284.0" mnemonicParsing="false" onAction="#Button6" prefHeight="101.0" prefWidth="113.0" text="PostSlot6" />
+      <Button fx:id="PostButton7" layoutX="312.0" layoutY="284.0" mnemonicParsing="false" onAction="#Button7" prefHeight="101.0" prefWidth="113.0" text="PostSlot7" />
+      <Button fx:id="PostButton8" layoutX="458.0" layoutY="284.0" mnemonicParsing="false" onAction="#Button8" prefHeight="101.0" prefWidth="113.0" text="PostSlot8" />
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#Refresh" text="Refresh" />
+   </children>
+</AnchorPane>
