@@ -38,7 +38,7 @@ public class Scene2 implements Initializable {
 
     @FXML
     private void SignUp(ActionEvent event) throws SQLException, IOException {
-      Connection connection = DriverManager.getConnection(HelloApplication.URL,HelloApplication.Username,HelloApplication.Password);
+      Connection connection = DriverManager.getConnection(HelloApplication.URL, HelloApplication.Username, HelloApplication.Password);
       Statement statement = connection.createStatement();
 
      statement.execute("create table IF NOT EXISTS Users(\n" +

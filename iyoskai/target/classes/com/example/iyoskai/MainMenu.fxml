@@ -6,18 +6,11 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.iyoskai.MainMenu">
    <children>
-      <Text layoutX="218.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EBAY" wrappingWidth="252.13671875">
+      <Text layoutX="129.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AMAZOON" wrappingWidth="314.13671875">
          <font>
             <Font size="60.0" />
          </font>
       </Text>
-      <ChoiceBox layoutX="6.0" layoutY="107.0" prefWidth="150.0" />
-      <Text layoutX="6.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Filter By: " />
-      <Text layoutX="6.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Type" />
-      <TextField layoutX="442.0" layoutY="107.0" promptText="Search" />
-      <Button layoutX="379.0" layoutY="106.0" minWidth="47.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="47.0" text="⌕" />
-      <ChoiceBox layoutX="166.0" layoutY="108.0" prefWidth="150.0" />
-      <Text layoutX="166.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rating" />
       <Button layoutX="518.0" layoutY="14.0" mnemonicParsing="false" onAction="#Create" text="Add new" />
       <Button fx:id="PostButton1" layoutX="14.0" layoutY="163.0" mnemonicParsing="false" onAction="#Button1" prefHeight="101.0" prefWidth="113.0" text="PostSlot1" />
       <Button fx:id="PostButton2" layoutX="160.0" layoutY="163.0" mnemonicParsing="false" onAction="#Button2" prefHeight="101.0" prefWidth="113.0" text="PostSlot2" />
